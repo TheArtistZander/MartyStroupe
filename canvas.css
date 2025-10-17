@@ -145,3 +145,13 @@ footer {
   text-align: center;
 }
 
+.enlarge-on-hover {
+  transition: transform 0.3s ease;
+}
+
+.enlarge-on-hover:hover {
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+
